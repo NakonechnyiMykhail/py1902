@@ -1,0 +1,5 @@
+number =int(input("enter the number: "))
+print (number // 100)
+print (number // 10 % 10)
+# print (int(number / 10))
+print (number % 10)

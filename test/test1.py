@@ -35,4 +35,9 @@ n = int(input('ведите число: '))
 
 print('binary = ', bin(n))
 print('power  = ', pow(n,2))
+# b = ""
+# while n>0:
+#     b =str(n % 2)+b
+#     n = n//2
 
+# print(b)

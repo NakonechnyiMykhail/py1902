@@ -46,7 +46,7 @@ print(number + 5)
 bool1 = True
 
 # ложное значение
-bool2 = True
+bool2 = False
 
 print(bool1)
 print(bool2)
