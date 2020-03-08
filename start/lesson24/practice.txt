@@ -1,0 +1,20 @@
+>>> numbers = [59,55,70,38,38,36,46,49,69,61]
+>>> print(numbers)
+[59, 55, 70, 38, 38, 36, 46, 49, 69, 61]
+>>> numbers.append(78)
+>>> numbers
+[59, 55, 70, 38, 38, 36, 46, 49, 69, 61, 78]
+>>> {}
+{}
+>>> dict = {'name':'Ivan','country':'Ukraine','numbers':[5,7,13]}
+>>> dict['name']
+'Ivan'
+>>> dict['Ivan']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'Ivan'
+>>> len(dict)
+3
+>>> dict['country']='USA'
+>>> dict
+{'name': 'Ivan', 'country': 'USA', 'numbers': [5, 7, 13]}
