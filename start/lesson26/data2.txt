@@ -1,0 +1,5 @@
+hello world
+my name is mike
+this is sparta
+my box is black
+car is blue
