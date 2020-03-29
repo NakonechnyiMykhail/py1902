@@ -24,12 +24,24 @@
 
 # print(value)
 
-f = open('data2.txt')
+f = open('data1.txt')
 numbers = []
 summ = 0
+
+# for line in f:
+#     numbers.append(int(line))
+
+# for index in numbers:
+#     summ += index
+# print(summ)
+
+# f.close()
+# print('File is closed.')
+
 try:
     for line in f:
         numbers.append(int(line))
+
     for index in numbers:
         summ += index
     print(summ)
@@ -42,3 +54,5 @@ else:
 finally:
     f.close()
     print('File is closed.')
+
+print('smth')

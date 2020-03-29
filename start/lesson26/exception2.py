@@ -1,6 +1,6 @@
 import sys
 
-List = ['a',0,2]
+List = ['a', '0', 0, 2]
 
 for entry in List:
     try:
